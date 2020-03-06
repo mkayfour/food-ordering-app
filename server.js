@@ -7,10 +7,6 @@ const App = express();
 
 App.use(bodyParser());
 
-// App.use("/", (req, res) => {
-//   res.send("Hey there");
-// });
-
 const data = [
   {
     id: 1,
